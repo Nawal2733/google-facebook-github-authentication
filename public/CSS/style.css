@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #f3f3f3;;
+}
+.navbar{
+    background-color: #1abc9c !important;
+}
+.nav-right-items li{
+    cursor: pointer;
+}
+
+/* Signin Page Style */
+.signInPage{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 0px rgb(168, 167, 167);
+}
+.signInPage label{
+    margin: 1px;
+}
+.signInPage .form-group{
+    margin-bottom: 10px;
+}
+.signInPage a{
+    text-decoration: none;
+}
+.login-card{
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    background-color: teal;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 0 2px black;
+}
+#facebook{
+    background-color: rgb(12, 12, 247);  
+}
+#github{
+    background-color: rgb(38, 38, 39);  
+}
+#google{
+    background-color: #fff;  
+    color: black;
+}
+
+/* Signup page Style */
+.signUpPage{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px gray;
+    border-radius: 3px;
+}
+.signUpPage label{
+    margin-bottom: 0px;
+}
+
+@media(max-width: 444px){
+    .signUpPage{
+        width: 320px;
+    }
+}
